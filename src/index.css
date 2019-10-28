@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app{
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#root{
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.weekDisplay{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.dayCard{
+  position: relative;
+  width: 150px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #ffffff;
+  color: #555555;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  transition: .3s;
+  box-shadow: 0px 0px 2px black;
+}
+
+.dayCard:hover{
+  box-shadow: 0px 0px 4px black;
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+.titleCard{
+  color: #555555;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  padding: 10px;
+  font-size: 26px;
+}
+
+img{
+  width: 85px;
+  height: 85px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: auto;
+  margin-right: auto;
+}
